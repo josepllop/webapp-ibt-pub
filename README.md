@@ -1,42 +1,22 @@
-# Nuxt 3 Minimal Starter
+# Web App Project Josep Llop and Josivan Yan
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Courses Rating Project
 
-## Setup
+## Navigation:
+1. Logging with Google Credentials.
+2. Select Branch of courses (for the purpuse of this demo Only OPIM courses are available)
+3. Select Course (for the purpose of this demo Internet Business Technologies have the full funtionalities)
+4. input rating between 1 to 10 to the 3 questions.
+5. answers can only be submited once.
 
-Make sure to install the dependencies:
+## Aditional information:
+To create the framework for the app we used NUX.
 
-```bash
-# yarn
-yarn install
+To get the bottons we used DaysiUI
 
-# npm
-npm install
+For the database we used Appwrite for convinience.
 
-# pnpm
-pnpm install
-```
+For hosting we used CloudFlare for easier integration (no payed hosting needed)
 
-## Development Server
-
-Start the development server on `http://localhost:3000`
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+The app works only in google chrome because CloudFlare is not integrated with Safari,
+we would need to buy a hosting to see it in different browsers.
