@@ -17,7 +17,7 @@ const {account} = useAppwrite()
 const login = async ()=>{
     // const res = await account.get()
     //   console.log('Logged in user', res)
-    account.createOAuth2Session('google','http://localhost:3000/branch',
-    'http://locahost:3000/')
+    account.createOAuth2Session('google','https://webapp-ibt-pub.pages.dev/branch',
+    'https://webapp-ibt-pub.pages.dev')
 }
 </script>
