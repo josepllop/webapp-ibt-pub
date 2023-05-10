@@ -20,3 +20,15 @@ For hosting we used CloudFlare for easier integration (no payed hosting needed)
 
 The app works only in google chrome because CloudFlare is not integrated with Safari,
 we would need to buy a hosting to see it in different browsers.
+
+## Setup instructions:
+For the sake of the project, I used a different type of database for ease of deployment.
+
+Just need to create a free account to read the documentation: 
+https://appwrite.io/docs/client/databases
+
+Here are the instructions for creating and authenticating the accounts:
+https://appwrite.io/docs/client/account
+
+And this is the documentation from the connector between the web app and the backend:
+https://nuxt.com/modules/appwrite
